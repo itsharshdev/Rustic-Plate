@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>The Rustic Plate</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="Restaurant Logo">
+                <span>The Rustic Plate</span>
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">
+                FRESH • FLAVOUR • EXPERIENCE
+            </p>
+
+            <h1>
+                Good Food.<br>
+                <span>Good Mood.</span>
+            </h1>
+
+            <p>
+                Welcome to The Rustic Plate — where fresh ingredients,
+                delicious flavours and warm hospitality come together.
+            </p>
+
+            <a href="#menu" class="main-btn">
+                Explore Our Menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Menu Section -->
+
+    <section class="menu" id="menu">
+
+        <div class="section-heading">
+
+            <p>OUR SPECIALITIES</p>
+
+            <h2>Popular Dishes</h2>
+
+            <span>
+                Some of our favourite dishes prepared with love.
+            </span>
+
+        </div>
+
+
+        <div class="food-cards">
+
+
+            <!-- Pizza -->
+
+            <div class="food-card">
+
+                <img src="images/pizza.png"
+                     alt="Italian Pizza">
+
+                <div class="food-info">
+
+                    <h3>Rustic Pizza</h3>
+
+                    <p>
+                        Fresh vegetables, mozzarella cheese
+                        and our signature sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <strong>₹299</strong>
+
+                        <button onclick="orderFood('Rustic Pizza')">
+                            Order
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pasta -->
+
+            <div class="food-card">
+
+                <img src="images/pasta.png"
+                     alt="Creamy Pasta">
+
+                <div class="food-info">
+
+                    <h3>Creamy Pasta</h3>
+
+                    <p>
+                        Creamy homemade pasta with herbs
+                        and parmesan cheese.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <strong>₹249</strong>
+
+                        <button onclick="orderFood('Creamy Pasta')">
+                            Order
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Burger -->
+
+            <div class="food-card">
+
+                <img src="images/burger.png"
+                     alt="Gourmet Burger">
+
+                <div class="food-info">
+
+                    <h3>Classic Burger</h3>
+
+                    <p>
+                        Juicy grilled patty with fresh vegetables
+                        and special sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <strong>₹199</strong>
+
+                        <button onclick="orderFood('Classic Burger')">
+                            Order
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <p class="tagline">OUR STORY</p>
+
+            <h2>
+                Made With Passion,<br>
+                Served With Love.
+            </h2>
+
+            <p>
+                The Rustic Plate is a modern restaurant focused on
+                serving delicious food using fresh ingredients.
+                Our goal is to create a comfortable place where
+                friends and families can enjoy great food together.
+            </p>
+
+
+            <div class="stats">
+
+                <div>
+                    <strong>10+</strong>
+                    <span>Years Experience</span>
+                </div>
+
+                <div>
+                    <strong>50+</strong>
+                    <span>Menu Items</span>
+                </div>
+
+                <div>
+                    <strong>4.8</strong>
+                    <span>Customer Rating</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="images/restaurant.png"
+                 alt="Restaurant Interior">
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+
+        <p class="tagline">RESERVATIONS</p>
+
+        <h2>Ready for a Great Meal?</h2>
+
+        <p>
+            Visit us and enjoy delicious food in a warm
+            and comfortable atmosphere.
+        </p>
+
+        <button onclick="reserveTable()">
+            Reserve a Table
+        </button>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>The Rustic Plate</h3>
+
+        <p>
+            Good Food • Good Mood
+        </p>
+
+        <p>
+            © 2026 The Rustic Plate | Web Technologies Lab
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
